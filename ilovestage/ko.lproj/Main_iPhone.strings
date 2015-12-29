@@ -1,0 +1,240 @@
+
+/* Class = "IBUILabel"; text = "1 Nov 14 19:30"; ObjectID = "04n-f6-c0a"; */
+"04n-f6-c0a.text" = "1 Nov 14 19:30";
+
+/* Class = "IBUIButton"; normalTitle = "SIGN UP"; ObjectID = "0aB-6b-2nq"; */
+"0aB-6b-2nq.normalTitle" = "가입하기";
+
+/* Class = "IBUILabel"; text = "x 10"; ObjectID = "1TV-ar-ozm"; */
+"1TV-ar-ozm.text" = "x 10";
+
+/* Class = "IBUIViewController"; title = "Sign In"; ObjectID = "1fy-RY-ffL"; */
+"1fy-RY-ffL.title" = "Sign In";
+
+/* Class = "IBUILabel"; text = "United Kingdom"; ObjectID = "2In-6i-jdg"; */
+"2In-6i-jdg.text" = "United Kingdom";
+
+/* Class = "IBUILabel"; text = "SPECIAL OFFERS"; ObjectID = "2wH-8g-7CF"; */
+"2wH-8g-7CF.text" = "스페셜 오퍼";
+
+/* Class = "IBUILabel"; text = "60%"; ObjectID = "3TX-6Y-J0K"; */
+"3TX-6Y-J0K.text" = "60%";
+
+/* Class = "IBUILabel"; text = "£59.0"; ObjectID = "4u6-UD-ox0"; */
+"4u6-UD-ox0.text" = "£59.0";
+
+/* Class = "IBUILabel"; text = "Booking number:"; ObjectID = "6dQ-PF-bpw"; */
+"6dQ-PF-bpw.text" = "Booking number:";
+
+/* Class = "IBUILabel"; text = "Booked"; ObjectID = "8QH-lG-IIV"; */
+"8QH-lG-IIV.text" = "예약중";
+
+/* Class = "IBUILabel"; text = "Booked"; ObjectID = "9OD-ZA-sZo"; */
+"9OD-ZA-sZo.text" = "예약중";
+
+/* Class = "IBUIButton"; normalTitle = "Reset Password"; ObjectID = "Aca-p7-YHZ"; */
+"Aca-p7-YHZ.normalTitle" = "Password 리셋하기";
+
+/* Class = "IBUILabel"; text = "ILOVESTAGE Ticket Office"; ObjectID = "BKB-Qi-R5d"; */
+"BKB-Qi-R5d.text" = "ILOVESTAGE 티켓 오피스";
+
+/* Class = "IBUILabel"; text = "Q1"; ObjectID = "D4v-19-itg"; */
+"D4v-19-itg.text" = "Q1";
+
+/* Class = "IBUILabel"; text = "Biily Eliot"; ObjectID = "DzU-fp-AIt"; */
+"DzU-fp-AIt.text" = "Biily Eliot";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "GOj-ls-vKN"; */
+"GOj-ls-vKN.placeholder" = "Password";
+
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "IGP-eM-gWa"; */
+"IGP-eM-gWa.title" = "About";
+
+/* Class = "IBUILabel"; text = "BOOKING DETAILS"; ObjectID = "JO6-RA-9e9"; */
+"JO6-RA-9e9.text" = "예약 내용";
+
+/* Class = "IBUILabel"; text = "32.0"; ObjectID = "KIy-Vt-UEe"; */
+"KIy-Vt-UEe.text" = "32.0";
+
+/* Class = "IBUILabel"; text = "WAITING..."; ObjectID = "Kz2-ZP-N9R"; */
+"Kz2-ZP-N9R.text" = "WAITING...";
+
+/* Class = "IBUILabel"; text = "Biily Eliot"; ObjectID = "LbI-9j-hAE"; */
+"LbI-9j-hAE.text" = "Biily Eliot";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "MzW-AV-q1O"; */
+"MzW-AV-q1O.placeholder" = "이메일";
+
+/* Class = "IBUILabel"; text = "Sign into ILOVESTAGE"; ObjectID = "NYP-Ac-r5f"; */
+"NYP-Ac-r5f.text" = "Sign into ILOVESTAGE";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "NuM-Rd-1oV"; */
+"NuM-Rd-1oV.placeholder" = "이메일";
+
+/* Class = "IBUIViewController"; title = "Main View Controller"; ObjectID = "OWw-b4-rY6"; */
+"OWw-b4-rY6.title" = "Main View Controller";
+
+/* Class = "IBUILabel"; text = "© 2014 ILOVESTAGE Ltd"; ObjectID = "P2i-re-0q0"; */
+"P2i-re-0q0.text" = "© 2014 ILOVESTAGE Ltd";
+
+/* Class = "IBUILabel"; text = "1 Nov 14 19:30"; ObjectID = "PGe-69-gbw"; */
+"PGe-69-gbw.text" = "1 Nov 14 19:30";
+
+/* Class = "IBUIButton"; normalTitle = "Book Tickets"; ObjectID = "Prd-a6-iop"; */
+"Prd-a6-iop.normalTitle" = "티켓 예약하기";
+
+/* Class = "IBUIButton"; normalTitle = "Please click here to go to Watch AFL."; ObjectID = "PvC-ZZ-5zD"; */
+"PvC-ZZ-5zD.normalTitle" = "Please click here to go to Watch AFL.";
+
+/* Class = "IBUILabel"; text = "No. of tickets:"; ObjectID = "Qjy-Hi-yVF"; */
+"Qjy-Hi-yVF.text" = "No. of tickets:";
+
+/* Class = "IBUIButton"; normalTitle = "CUSTOMER SUPPORT"; ObjectID = "QtS-sN-hbE"; */
+"QtS-sN-hbE.normalTitle" = "자주 찾는 FAQ";
+
+/* Class = "IBUIViewController"; title = "Sign In"; ObjectID = "RzJ-Sk-m0M"; */
+"RzJ-Sk-m0M.title" = "가입하기";
+
+/* Class = "IBUILabel"; text = "Up to"; ObjectID = "S8b-l8-tPh"; */
+"S8b-l8-tPh.text" = "Up to";
+
+/* Class = "IBUILabel"; text = "How many tickets?"; ObjectID = "UHn-EG-vZ3"; */
+"UHn-EG-vZ3.text" = "티켓 장수를 선택하세요.";
+
+/* Class = "IBUIViewController"; title = "Main View Controller"; ObjectID = "VAH-bg-DtV"; */
+"VAH-bg-DtV.title" = "Main View Controller";
+
+/* Class = "IBUILabel"; text = "00 : 00"; ObjectID = "VJJ-OR-Haj"; */
+"VJJ-OR-Haj.text" = "00 : 00";
+
+/* Class = "IBUILabel"; text = "To login with your Yahoo account on this app, please visit the Watch AFL website and update your existing password.  "; ObjectID = "XyT-GJ-C38"; */
+"XyT-GJ-C38.text" = "To login with your Yahoo account on this app, please visit the Watch AFL website and update your existing password.  ";
+
+/* Class = "IBUILabel"; text = "Version 1.0"; ObjectID = "a7K-nh-Clb"; */
+"a7K-nh-Clb.text" = "Version 1.0";
+
+/* Class = "IBUILabel"; text = "Booked"; ObjectID = "bN9-gu-Xqx"; */
+"bN9-gu-Xqx.text" = "예약중";
+
+/* Class = "IBUILabel"; text = "You'll only be charged if the admin accepts your booking request."; ObjectID = "bZL-7O-BYK"; */
+"bZL-7O-BYK.text" = "You'll only be charged if the admin accepts your booking request.";
+
+/* Class = "IBUILabel"; text = "LOGIN"; ObjectID = "bls-gC-XyI"; */
+"bls-gC-XyI.text" = "로그인";
+
+/* Class = "IBUIButton"; normalTitle = "SIGN UP FOR USER"; ObjectID = "cX0-kw-INf"; */
+"cX0-kw-INf.normalTitle" = "일반회원 가입";
+
+/* Class = "IBUILabel"; text = "Off theatre tickets"; ObjectID = "dTF-sq-yj3"; */
+"dTF-sq-yj3.text" = "Off theatre tickets";
+
+/* Class = "IBUIButton"; normalTitle = "PRIVACY POLICY"; ObjectID = "dpT-qq-CZn"; */
+"dpT-qq-CZn.normalTitle" = "개인정보 취급방침";
+
+/* Class = "IBUILabel"; text = "Venue:"; ObjectID = "ebJ-1L-cwp"; */
+"ebJ-1L-cwp.text" = "Venue:";
+
+/* Class = "IBUIButton"; normalTitle = "Forgot password"; ObjectID = "eyF-2C-WBy"; */
+"eyF-2C-WBy.normalTitle" = "비밀번호 찾기";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "f0x-Vs-GBa"; */
+"f0x-Vs-GBa.placeholder" = "비밀번호";
+
+/* Class = "IBUILabel"; text = "Show:"; ObjectID = "f2r-rv-YLv"; */
+"f2r-rv-YLv.text" = "Show:";
+
+/* Class = "IBUIButton"; normalTitle = "LOGIN"; ObjectID = "fgZ-Ry-dXA"; */
+"fgZ-Ry-dXA.normalTitle" = "로그인";
+
+/* Class = "IBUILabel"; text = "Total paid:"; ObjectID = "fmb-Ys-c4i"; */
+"fmb-Ys-c4i.text" = "Total paid:";
+
+/* Class = "IBUILabel"; text = "00 : 00"; ObjectID = "hG4-SX-eZy"; */
+"hG4-SX-eZy.text" = "00 : 00";
+
+/* Class = "IBUILabel"; text = " "; ObjectID = "j44-9o-dgY"; */
+"j44-9o-dgY.text" = " ";
+
+/* Class = "IBUILabel"; text = "BILLING ADDRESS"; ObjectID = "kaA-Jc-sBd"; */
+"kaA-Jc-sBd.text" = "신용카드 청구지 주소";
+
+/* Class = "IBUILabel"; text = "Payment Method:"; ObjectID = "mHw-bW-h8O"; */
+"mHw-bW-h8O.text" = "결제방법:";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "mTJ-BZ-WVW"; */
+"mTJ-BZ-WVW.placeholder" = "이메일";
+
+/* Class = "IBUIButton"; normalTitle = "Log in"; ObjectID = "nOj-rP-YsR"; */
+"nOj-rP-YsR.normalTitle" = "로그인";
+
+/* Class = "IBUILabel"; text = "3"; ObjectID = "nPY-Xv-ogk"; */
+"nPY-Xv-ogk.text" = "3";
+
+/* Class = "IBUILabel"; text = "Start time:"; ObjectID = "nyn-P2-UI9"; */
+"nyn-P2-UI9.text" = "Start time:";
+
+/* Class = "IBUINavigationItem"; title = "Home"; ObjectID = "o5m-Jq-Yz6"; */
+"o5m-Jq-Yz6.title" = "Home";
+
+/* Class = "IBUILabel"; text = "Ticket type:"; ObjectID = "oQH-dU-UTy"; */
+"oQH-dU-UTy.text" = "Ticket type:";
+
+/* Class = "IBUIViewController"; title = "Main View Controller"; ObjectID = "ope-3f-RGm"; */
+"ope-3f-RGm.title" = "Main View Controller";
+
+/* Class = "IBUILabel"; text = "PAYMENT INFO"; ObjectID = "pbH-FD-P72"; */
+"pbH-FD-P72.text" = "카드정보";
+
+/* Class = "IBUILabel"; text = "Name:"; ObjectID = "phD-wv-3VS"; */
+"phD-wv-3VS.text" = "Name:";
+
+/* Class = "IBUILabel"; text = "Thursday, 30 Oct 2014 @ 19:30"; ObjectID = "qIj-Yw-rey"; */
+"qIj-Yw-rey.text" = "Thursday, 30 Oct 2014 @ 19:30";
+
+/* Class = "IBUIButton"; normalTitle = "TERMS & CONDITIONS"; ObjectID = "qWp-YJ-WoI"; */
+"qWp-YJ-WoI.normalTitle" = "이용약관";
+
+/* Class = "IBUIButton"; normalTitle = "Tap to refresh."; ObjectID = "qbf-4q-ufb"; */
+"qbf-4q-ufb.normalTitle" = "Tap to refresh.";
+
+/* Class = "IBUILabel"; text = "Address:"; ObjectID = "qkH-hZ-pKi"; */
+"qkH-hZ-pKi.text" = "Address:";
+
+/* Class = "IBUITextField"; placeholder = "Post Code"; ObjectID = "u6Q-Si-av9"; */
+"u6Q-Si-av9.placeholder" = "우편번호";
+
+/* Class = "IBUIButton"; normalTitle = "Tap to refresh."; ObjectID = "uaF-vk-Ktc"; */
+"uaF-vk-Ktc.normalTitle" = "Tap to refresh.";
+
+/* Class = "IBUIViewController"; title = "Book Tickets"; ObjectID = "ueN-W8-HlQ"; */
+"ueN-W8-HlQ.title" = "티켓 예약하기";
+
+/* Class = "IBUIButton"; normalTitle = "SIGN UP FOR AGENCY"; ObjectID = "vLR-G6-JPF"; */
+"vLR-G6-JPF.normalTitle" = "에이전시 가입";
+
+/* Class = "IBUIButton"; normalTitle = ">"; ObjectID = "vda-sc-cLn"; */
+"vda-sc-cLn.normalTitle" = ">";
+
+/* Class = "IBUILabel"; text = "TICKET COLLECTION"; ObjectID = "wxN-kT-Fsn"; */
+"wxN-kT-Fsn.text" = "티켓 찾기";
+
+/* Class = "IBUILabel"; text = "8"; ObjectID = "xTN-Oq-V7e"; */
+"xTN-Oq-V7e.text" = "8";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "xlS-Q7-eza"; */
+"xlS-Q7-eza.text" = "Label";
+
+/* Class = "IBUIButton"; disabledTitle = "Save"; ObjectID = "zWo-zE-30b"; */
+"zWo-zE-30b.disabledTitle" = "저장하기";
+
+/* Class = "IBUIButton"; highlightedTitle = "Save"; ObjectID = "zWo-zE-30b"; */
+"zWo-zE-30b.highlightedTitle" = "저장하기";
+
+/* Class = "IBUIButton"; normalTitle = "Save"; ObjectID = "zWo-zE-30b"; */
+"zWo-zE-30b.normalTitle" = "저장하기";
+
+/* Class = "IBUIButton"; disabledTitle = "Remove Card"; ObjectID = "zuN-Ef-o3G"; */
+"zuN-Ef-o3G.disabledTitle" = "신용카드 제거";
+
+/* Class = "IBUIButton"; normalTitle = "Remove Card"; ObjectID = "zuN-Ef-o3G"; */
+"zuN-Ef-o3G.normalTitle" = "신용카드 제거";

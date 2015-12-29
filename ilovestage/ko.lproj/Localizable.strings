@@ -1,0 +1,60 @@
+/* Localized versions of Info.plist keys */
+
+/*login*/
+"SIGN INTO ILOVESTAGE" = "      로그인이 필요합니다.";
+"LOGIN" = "로그인";
+"SIGN UP" = "가입하기";
+"SIGN UP FOR USER" = "일반회원 가입";
+"SIGN UP FOR AGENCY" = "에이전시 가입";
+"FORGOT PASSWORD" = "비밀번호 찾기";
+"FIRST NAME" = "이름";
+"LAST NAME" = "성";
+"EMAIL" = "이메일";
+"PASSWORD" = "비밀번호";
+"CONTACT NUMBER" = "      전화번호";
+"ADDRESS" = "주소";
+"AGENCY NAME" = "에이전시 이름";
+"RESET PASSWORD" = "비밀번호 찾기";
+"SIGN UP NOTE" = "이벤트가 취소되었을 경우 긴급 연락을 위한\n연락처를 정확히 입력 해주세요.";
+"NO TICKETS" = "예약된 티켓이 없습니다.";
+"ErrorCode_404" = "You haven't registerd yet. Please register to use ILOVESTAGE service.";
+"ErrorCode_401" = "입력하신 EMAIL 또는 PASSWORD가 일치하지 않습니다.";
+"ErrorCode_409" = "This email already exists.";
+"EamilValidataionError" = "정확한 이메일 주소를 입력해주세요.";
+"RegistrationError" = "Please enter all information.";
+"Please enter your email address." = "EMAIL을 입력해주세요.";
+"Please enter password." = "PASSWORD를 입력해주세요.";
+"E-mail not identified!" = "E-mail not identified!";
+
+/*main*/
+"MOSTBOOKED" = "MOST BOOKED";
+"BOOK TICKETS" = "BOOK TICKETS";
+"MY TICKETS" = "MY TICKETS";
+"HOW IT WORKS" = "HOW IT WORKS";
+"ABOUT" = "ABOUT";
+
+"TAP TO REFRESH" = "Tap to refresh";
+/*tickets*/
+"Waiting..." = "대기중...";
+"Cancelled" = "취소됨";
+"CUSTOMER SUPPORT" = "ILOVESTAGE 문의하기";
+//"CUSTOMER SUPPORT MSG" = "예약관련 및 기타 긴급 문의사항은 아래의 연락처로 문의해주세요.\n이메일        hello@ilovestage.co.uk.\n오피스 전화    0044 203 356 2700 \n    (평일 10:30- 17:00)\n모바일 전화    079 2175 5163 \n카카오       ilovestage";
+"CUSTOMER SUPPORT MSG" = "예약관련 및 기타 긴급 문의사항은 아래의 연락처로 문의해주세요.\n이메일:        hello@ilovestage.co.uk\n카카오:       ilovestage";
+"TICKET COLLECTION" = "* 이메일로 받은 e-Ticket 출력 또는 모바일폰의 예약 내용을 가지고 ILOVESTAGE 티켓 오피스에서 티켓을 찾아서 공연장으로 가시면 됩니다.\n\n* 티켓 수령은 해당 공연관람일 당일에만 가능하오니 착오 없으시기 바랍니다.\n\n* 런던 티켓 오피스는 매 공연일 오후 1시 ~ 6시 30분 까지 운영합니다.\n\n* 공연관람 시작 30분 전에 공연장에 도착하셔야 합니다. 공연이 시작된 후에는 입장이 불가능할 수 있으니 시간을 꼭 엄수해 주시기 바랍니다.";
+
+"OFFER" = "Enjoy up to 20% off at restaurants, gift shops and our many other partners. To take advantage of this special offer, get your coupon codes from www.ilovesetage.co.uk.";
+
+/*about*/
+"ABOUT US" = "ABOUT ILOVESTAGE";
+"COMPANY BIO" ="We produce a fantastic variety of old/new plays and musicals, from new theatre plays to cleverly adapted classic West End shows. We also provide a great range of convenient services - tickets sales, merchandise, theatre news and more.\n\nA couple of our recent successes are the Korean adaption of Zorro The Musical and Dress Circle Korea, both inspiring the South Korean showbiz industry. We have partnership with KAPAP (Korea Association of Performing Arts Producers).";
+
+/*book tickets*/
+"Book Tickets" = "티켓 예약하기";
+"Choose a date" = "날짜와";
+"& time" = "시간을 선택하세요.";
+"Total : "= "총 금액 : ";
+"PAYMENT METHOD"= "결제방법";
+
+"TERMS" = "이용약관";
+"PRIVACY POLICY" = "개인정보 취급방침";
+"FAQ" = "자주 찾는 FAQ";

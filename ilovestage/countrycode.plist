@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Country</key>
+		<string>Australia</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>61</string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Austria</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>43</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Belgium</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>32</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Canada</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>1</string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>China</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>86</string>
+		<key>Currency Symbol</key>
+		<string>¥</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Denmark</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>45</string>
+		<key>Currency Symbol</key>
+		<string>kr</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Finland</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>358</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>France</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>33</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Germany</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>49</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Hong Kong</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>852</string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Indonesia</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>62</string>
+		<key>Currency Symbol</key>
+		<string>Rp</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Ireland</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>353</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Italy</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>39</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Japan</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>81</string>
+		<key>Currency Symbol</key>
+		<string>¥</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Malaysia</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>60</string>
+		<key>Currency Symbol</key>
+		<string>RM</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Netherlands</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>31</string>
+		<key>Currency Symbol</key>
+		<string>ƒ</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Norway</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>47</string>
+		<key>Currency Symbol</key>
+		<string>kr</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Philippines</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>63</string>
+		<key>Currency Symbol</key>
+		<string>₱</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Poland</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>48</string>
+		<key>Currency Symbol</key>
+		<string>zł</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Portugal</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>351</string>
+		<key>Currency Symbol - 2</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Russia</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>7</string>
+		<key>Currency Symbol</key>
+		<string>руб</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Singapore</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>65</string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>South Korea</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>82</string>
+		<key>Currency Symbol</key>
+		<string>₩</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Spain</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>34</string>
+		<key>Currency Symbol</key>
+		<string>€</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Sweden</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>46</string>
+		<key>Currency Symbol</key>
+		<string>kr</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Switzerland</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>41</string>
+		<key>Currency Symbol</key>
+		<string>CHF</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Thailand</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>66</string>
+		<key>Currency Symbol</key>
+		<string>฿	</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>United Arab Emirates</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Country Code</key>
+		<string>971</string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>United Kingdom</string>
+		<key>ISO</key>
+		<string>GB</string>
+		<key>Country Code</key>
+		<string>44</string>
+		<key>Currency Symbol</key>
+		<string>£</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>United States</string>
+		<key>ISO</key>
+		<string></string>
+		<key>Currency Symbol</key>
+		<string>$</string>
+		<key>Country Code</key>
+		<string>1</string>
+	</dict>
+</array>
+</plist>

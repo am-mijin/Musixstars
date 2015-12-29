@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Perk" representedClassName="Perk" syncable="YES">
+        <attribute name="createdat" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="delivery" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="account_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="account_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bankname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortcode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdat" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expirydate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="objectid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="perk" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Perk" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Video" positionX="-63" positionY="-18" width="128" height="210"/>
+        <element name="Perk" positionX="-54" positionY="-9" width="128" height="165"/>
+        <element name="User" positionX="-36" positionY="72" width="128" height="195"/>
+    </elements>
+</model>

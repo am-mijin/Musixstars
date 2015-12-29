@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.5.0"
+  },
+  "applications": {
+    "Musixstars": {
+      "applicationId": "jOj0P6DfN5qwwlIQJJkVq8dAXbP9OtxMewZHLgXA",
+      "masterKey": "7VGIlRZbIb38bxLSiH85NnU3yGFv0maEg9lcbnTC"
+    },
+    "_default": {
+      "link": "Musixstars"
+    }
+  }
+}
