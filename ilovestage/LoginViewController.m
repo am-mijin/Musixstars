@@ -80,11 +80,11 @@
     self.passwordTextField.text = [UserAccount sharedInstance].password;
   
     
-    self.emailTextField.text = @"musixstarsapp@gmail.com";
-    self.passwordTextField.text = @"1234";
-    
-    //self.emailTextField.text = @"developer.mcho@gmail.com";
+    //self.emailTextField.text = @"musixstarsapp@gmail.com";
     //self.passwordTextField.text = @"1234";
+    
+    self.emailTextField.text = @"developer.mcho@gmail.com";
+    self.passwordTextField.text = @"1234";
   
 }
 

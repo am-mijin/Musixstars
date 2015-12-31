@@ -14,5 +14,5 @@
 @interface BookTicketsViewController :BaseViewController<RequestDelegate>
 @property (strong, nonatomic) PFObject  *obj;
 @property (assign) int index;
-
+@property (assign) int type;
 @end

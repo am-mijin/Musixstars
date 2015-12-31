@@ -27,6 +27,8 @@
 @property (nonatomic, weak) IBOutlet UIButton *uploadButton;
 @property (nonatomic, weak) IBOutlet UILabel *sectionLabel;
 @property (nonatomic, weak) IBOutlet UIButton *addPerkButton;
+
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *contraint;
 @property (assign) int selectedPerk;
 @end
 
@@ -97,6 +99,8 @@
         _videoPlayerViewController.moviePlayer.shouldAutoplay = NO;
         
     }
+    
+
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -146,6 +150,9 @@
 
 -(void)initUI
 {
+    
+    _header.backgroundColor = [UIColor whiteColor];
+    
     if(_mode == kDefault || _mode == kEditVideo )
     {
         _perks = [[_obj objectForKey:@"perks"] mutableCopy];
@@ -310,17 +317,24 @@
         
         [_header addSubview:desc];
         
-        _contributeView.frame = CGRectMake(0, desc.frame.origin.y + desc.frame.size.height + 10, self.view.frame.size.width, _contributeView.frame.size.height);
+        
+        
+        _header.frame = CGRectMake(0, 0, 320, desc.frame.origin.y + desc.frame.size.height + 10+ _contributeView.frame.size.height);
+        
+        
+        _contraint.constant = desc.frame.origin.y + desc.frame.size.height - 240;
+        
+       
         
     }
     else
     {
         
-        _contributeView.frame =  CGRectMake(0, totalfund.frame.origin.y + totalfund.frame.size.height + 10, self.view.frame.size.width, _contributeView.frame.size.height);
+        
+        _contraint.constant = totalfund.frame.origin.y + totalfund.frame.size.height - 240;
+        
     }
-    
-    
-    [_header addSubview:_contributeView];
+   
     
     _sectionView.frame = CGRectMake(0,  _contributeView.frame.origin.y + _contributeView.frame.size.height + 10, self.view.frame.size.width, 45);
     
@@ -351,6 +365,9 @@
         
         _header.frame = CGRectMake(0, 0, 320, _sectionView.frame.origin.y + _sectionView.frame.size.height);
     }
+    else
+    {
+    }
     
     if( [[Cache sharedInstance] isVideoLikedByCurrentUser:_obj])
     {
@@ -360,7 +377,14 @@
     {
         _loveButton.selected = NO;
     }
-
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        
+        //[self.view setNeedsDisplay];
+        
+        [_contributeView updateConstraints];
+        
+    });
 }
 
 #pragma mark - Table view data source
@@ -392,7 +416,6 @@
             return  0;
         }
     }
-   
     return [_perks count] -3;
 }
 
@@ -670,7 +693,38 @@
 }
 */
 
-
+-(IBAction)contribute:(id)sender
+{
+    [_videoPlayerViewController.moviePlayer pause];
+    
+    if(![UserAccount sharedInstance].loggedin)
+    {
+        
+        _selectedPerk = [sender tag ];
+        UINavigationController *vc = (UINavigationController*)[self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewNaviagtionController"];
+        
+        [self presentViewController:vc animated:NO completion:nil];
+        
+    }
+    else
+    {
+        
+        //        PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+        //        [currentInstallation addUniqueObject:[_obj objectForKey:@"objectId"] forKey:@"channels"];
+        //        [currentInstallation saveInBackground];
+        //
+        
+        
+        
+        
+        BookTicketsViewController *bookTicketsViewController = (BookTicketsViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"BookTicketsViewController"];
+        bookTicketsViewController.index = [sender tag ];
+        bookTicketsViewController.obj = _obj;
+        bookTicketsViewController.type = 1;
+        
+        [self.navigationController pushViewController:bookTicketsViewController animated:YES];
+    }
+}
 -(IBAction)buyPerk:(id)sender
 {
     [_videoPlayerViewController.moviePlayer pause];

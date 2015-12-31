@@ -51,9 +51,29 @@
     // Do any additional setup after loading the view.
    
     _paymentLabel.textColor = UIColorFromRGB(0x111111);
-    _product =  [[_obj objectForKey:@"perks"] objectAtIndex:_index];
     
+    if(_type == 1) /*contribution*/
+    {
+        for (NSMutableDictionary* p in [_obj objectForKey:@"perks"])
+        {
+            if([[p objectForKey:@"type"] isEqualToString:@"default"] &&
+               [[p objectForKey:@"price"] integerValue]  == _index )
+            {
+                _product = p;
+            }
+        }
+        
+    }
+    else
+    {
+        
+        _product =  [[_obj objectForKey:@"perks"] objectAtIndex:_index];
+        
+        
+    }
     _price = [_product objectForKey:@"price"];
+    NSLog(@"%@",[_obj objectForKey:@"perks"]);
+    
     [self initUI];
 }
 
@@ -68,6 +88,12 @@
     
     
     self.title = NSLocalizedString(@"BUY PERK", @"");
+    
+    if(_type == 1)
+    {
+        
+        self.title = NSLocalizedString(@"CONTRIBUTION", @"");
+    }
     // Do any additional setup after loading the view.
     
     [self.navigationController.navigationBar setHidden:NO];
@@ -85,17 +111,7 @@
     {
         _cardnumber.hidden = YES;
     }
-    
-//    if([[UserAccount sharedInstance].role isEqualToString:@"admin"])
-//    {
-//        _editPrice.enabled = YES;
-//        if([[Global sharedInstance].admin_price length])
-//           [self updatePrice];
-//    }
-//    else
-//        _editPrice.enabled = NO;
-    
-//    [self updateDate];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -145,6 +161,8 @@
     NSLog(@"%f",titleLabel.frame.size.height);
     //[self updateDate];
   
+    if(_type == 1)
+        _addressLabel.text  =@"";
     _totalpriceLabel.text = [NSString stringWithFormat:@"£ %.2f",
                              [_price floatValue ] ];
    
@@ -183,11 +201,13 @@
     _tokenId = token.tokenId;
 
     
+  
     NSMutableDictionary *orderinfo = [NSMutableDictionary dictionaryWithObjectsAndKeys:
                                          _product, @"perk",
                                          [NSNumber numberWithInt:_index], @"index",
                                          _addressLabel.text, @"orderinfo",
                                         nil];
+    
    
     NSLog(@"order %@",orderinfo);
     

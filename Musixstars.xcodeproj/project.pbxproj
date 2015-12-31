@@ -378,6 +378,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480C06771C3490AD0078BC2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				483196B51C31D2B000E9DBD0 /* Perk+CoreDataProperties.h */,
+				483196B61C31D2B000E9DBD0 /* Perk+CoreDataProperties.m */,
+				483196B71C31D2B100E9DBD0 /* Perk.h */,
+				483196B81C31D2B100E9DBD0 /* Perk.m */,
+				483196B91C31D2B100E9DBD0 /* User+CoreDataProperties.h */,
+				483196BA1C31D2B100E9DBD0 /* User+CoreDataProperties.m */,
+				483196BB1C31D2B100E9DBD0 /* User.h */,
+				483196BC1C31D2B100E9DBD0 /* User.m */,
+				483196BD1C31D2B100E9DBD0 /* Video+CoreDataProperties.h */,
+				483196BE1C31D2B100E9DBD0 /* Video+CoreDataProperties.m */,
+				483196BF1C31D2B100E9DBD0 /* Video.h */,
+				483196C01C31D2B100E9DBD0 /* Video.m */,
+				483196A01C31C6C900E9DBD0 /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		486096721B19338C0023DFEA /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,19 +433,7 @@
 		75240C4319CAF36F005B0464 = {
 			isa = PBXGroup;
 			children = (
-				483196B51C31D2B000E9DBD0 /* Perk+CoreDataProperties.h */,
-				483196B61C31D2B000E9DBD0 /* Perk+CoreDataProperties.m */,
-				483196B71C31D2B100E9DBD0 /* Perk.h */,
-				483196B81C31D2B100E9DBD0 /* Perk.m */,
-				483196B91C31D2B100E9DBD0 /* User+CoreDataProperties.h */,
-				483196BA1C31D2B100E9DBD0 /* User+CoreDataProperties.m */,
-				483196BB1C31D2B100E9DBD0 /* User.h */,
-				483196BC1C31D2B100E9DBD0 /* User.m */,
-				483196BD1C31D2B100E9DBD0 /* Video+CoreDataProperties.h */,
-				483196BE1C31D2B100E9DBD0 /* Video+CoreDataProperties.m */,
-				483196BF1C31D2B100E9DBD0 /* Video.h */,
-				483196C01C31D2B100E9DBD0 /* Video.m */,
-				483196A01C31C6C900E9DBD0 /* Model.xcdatamodeld */,
+				480C06771C3490AD0078BC2A /* Model */,
 				75240C5519CAF36F005B0464 /* Musixstars */,
 				75240C4E19CAF36F005B0464 /* Frameworks */,
 				75240C4D19CAF36F005B0464 /* Products */,

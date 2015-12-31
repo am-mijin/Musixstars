@@ -24,7 +24,7 @@ NSString *const kActivityContentKey     = @"content";
 NSString *const kActivityTypeLike       = @"like";
 NSString *const kActivityTypeFollow     = @"follow";
 NSString *const kActivityTypeOrder       = @"order";
-
+NSString *const kActivityTypeContribute      = @"contribute ";
 NSString *const kVideoKey = @"video";
 NSString *const kPerkKey = @"perk";
 @implementation ParseAPI
@@ -34,7 +34,7 @@ NSString *const kPerkKey = @"perk";
     // Create the like activity and save it
     
     NSDictionary* perk = [orderinfo objectForKey:@"perk"];
-    int index = [[orderinfo objectForKey:@"index"] integerValue];
+    //int index = [[orderinfo objectForKey:@"index"] integerValue];
     
      PFQuery *queryPerk = [PFQuery queryWithClassName:kPerksClassKey];
      
@@ -49,14 +49,29 @@ NSString *const kPerkKey = @"perk";
              NSLog(@"perkID %@",p.objectId);
              
              NSMutableArray* sponsors = [NSMutableArray new];
-             sponsors = [p[@"sponsors"] mutableCopy];
              [sponsors addObject:[PFUser currentUser]];
+             
+             if(p[@"sponsors"])
+             {
+                 
+                 sponsors = [p[@"sponsors"] mutableCopy];
+             }
              
              p[@"sponsors"] = sponsors;
              [p saveInBackground];
              
              PFObject *orderActivity = [PFObject objectWithClassName:kActivityClassKey];
-             [orderActivity setObject:kActivityTypeOrder forKey:kActivityTypeKey];
+             if([[perk objectForKey:@"type"] isEqualToString:@"default"])
+             {
+                 
+                 [orderActivity setObject:kActivityTypeContribute forKey:kActivityTypeKey];
+             }
+             else
+             {
+                 
+                 [orderActivity setObject:kActivityTypeOrder forKey:kActivityTypeKey];
+                 
+             }
              [orderActivity setObject:[PFUser currentUser] forKey:kActivityFromUserKey];
              [orderActivity setObject:[video objectForKey:@"user"] forKey:kActivitytoUserKey];
              [orderActivity setObject:video forKey:kVideoKey];
@@ -107,6 +122,18 @@ NSString *const kPerkKey = @"perk";
                                                       video[@"totalfund"] =
                                                       [NSNumber numberWithInt:totalfund + [[perk objectForKey:@"price"] integerValue]];
                                                       NSMutableArray* perks = [video[@"perks"] mutableCopy];
+                                                      
+                                                      int index = 0;
+                                                      
+                                                      for (int i = 0; i<[perks count];i++) {
+                                                          NSDictionary* item = [perks objectAtIndex:i];
+                                                         if( [[item objectForKey:@""] isEqualToString:p.objectId])
+                                                         {
+                                                             index = i;
+                                                             break;
+                                                         }
+                                                      }
+                                                      
                                                       [perks replaceObjectAtIndex: index withObject:newperk];
                                                       
                                                       video[@"perks"] = perks;
@@ -119,8 +146,6 @@ NSString *const kPerkKey = @"perk";
                                               }];
                  
              }];
-             
-             
          }
 
      }];

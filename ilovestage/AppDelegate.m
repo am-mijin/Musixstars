@@ -491,7 +491,7 @@ static NSUInteger const kImportSize = 300;
         NSString *message = nil;
         NSDictionary *aps = [userInfo objectForKey:@"aps"];
 
-        
+        /*
         id alert = [aps objectForKey:@"alert"];
         if ([alert isKindOfClass:[NSString class]]) {
             message = alert;
@@ -505,7 +505,7 @@ static NSUInteger const kImportSize = 300;
            
             [alert show];
 
-        }
+        }*/
     }
     //DetailPageClass *detailPage = [[DetailPageClass alloc] initWithNibName:@"DetailPageClass" bundle:nil];
     //[self.navigationcontroller pushViewController:detailPage animated:YES];
